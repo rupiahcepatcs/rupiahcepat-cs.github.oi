@@ -166,6 +166,64 @@ footer strong{color:var(--forest-deep)}
   .ai-text{display:none}
 }
 
+
+.social-official{
+  padding:72px 0;
+  background:#fff;
+  border-top:1px solid var(--line);
+}
+.social-official .social-box{
+  max-width:900px;
+  margin:0 auto;
+  padding:0 32px;
+  text-align:center;
+}
+.social-official h2{
+  color:var(--forest-deep);
+  font-size:clamp(28px,4vw,38px);
+  margin-bottom:12px;
+}
+.social-official p{
+  max-width:720px;
+  margin:0 auto 26px;
+  color:rgba(22,22,17,.65);
+  font-size:14px;
+}
+.social-links{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+}
+.social-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  min-height:48px;
+  padding:12px 18px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:var(--paper);
+  color:var(--forest-deep);
+  font-weight:700;
+  font-size:14px;
+  transition:.2s;
+}
+.social-link:hover{
+  transform:translateY(-2px);
+  background:#fff;
+}
+.social-note{
+  margin-top:20px !important;
+  font-size:12px !important;
+}
+@media(max-width:600px){
+  .social-official .social-box{padding:0 20px}
+  .social-links{display:grid;grid-template-columns:1fr 1fr}
+  .social-link{width:100%}
+}
+
 </style>
 <script type="application/ld+json">
 {
@@ -233,6 +291,29 @@ footer strong{color:var(--forest-deep)}
       ]
     }
   ]
+}
+</script>
+<script type="application/ld+json" id="rupiahcepat-about-schema">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.rupiahcepat-cs.com/#webpage",
+  "url": "https://www.rupiahcepat-cs.com/",
+  "name": "Panduan Restrukturisasi Rupiah Cepat",
+  "description": "Situs informasi independen mengenai restrukturisasi dan penyesuaian pembayaran Rupiah Cepat.",
+  "inLanguage": "id-ID",
+  "about": {
+    "@type": "Organization",
+    "@id": "https://www.rupiahcepat.co.id/#organization",
+    "name": "Rupiah Cepat",
+    "legalName": "PT Kredit Utama Fintech Indonesia",
+    "url": "https://www.rupiahcepat.co.id/",
+    "sameAs": [
+      "https://www.instagram.com/official_rupiahcepat/",
+      "https://www.youtube.com/c/RupiahCepat",
+      "https://www.facebook.com/RupiahCepatOfficial"
+    ]
+  }
 }
 </script>
 </head>
@@ -377,6 +458,48 @@ footer strong{color:var(--forest-deep)}
 <a href="https://wa.me/628136167501?text=Halo%2C%20saya%20ingin%20mendapatkan%20informasi%20mengenai%20pengajuan%20restrukturisasi%20tagihan%20Rupiah%20Cepat." target="_blank" rel="noopener noreferrer" class="btn-primary">Buka WhatsApp yang Tercantum</a>
 </section>
 </main>
+
+
+<section class="social-official" aria-labelledby="social-resmi-title">
+  <div class="social-box">
+    <h2 id="social-resmi-title">Media Sosial Resmi Rupiah Cepat</h2>
+    <p>Gunakan tautan berikut untuk mengunjungi kanal yang ditautkan oleh Rupiah Cepat. Tautan dibuka di situs eksternal.</p>
+
+    <div class="social-links">
+      <a class="social-link"
+         href="https://www.instagram.com/official_rupiahcepat/"
+         target="_blank"
+         rel="noopener noreferrer external">
+        <span aria-hidden="true">◎</span> Instagram
+      </a>
+
+      <a class="social-link"
+         href="https://www.youtube.com/c/RupiahCepat?sub_confirmation=1"
+         target="_blank"
+         rel="noopener noreferrer external">
+        <span aria-hidden="true">▶</span> YouTube
+      </a>
+
+      <a class="social-link"
+         href="https://www.facebook.com/RupiahCepatOfficial"
+         target="_blank"
+         rel="noopener noreferrer external">
+        <span aria-hidden="true">f</span> Facebook
+      </a>
+
+      <a class="social-link"
+         href="https://www.rupiahcepat.co.id/"
+         target="_blank"
+         rel="noopener noreferrer external">
+        <span aria-hidden="true">↗</span> Website Resmi
+      </a>
+    </div>
+
+    <p class="social-note">
+      Situs ini merupakan situs informasi independen dan tidak mengelola akun media sosial di atas.
+    </p>
+  </div>
+</section>
 
 <footer>
 <strong>Panduan Restrukturisasi Rupiah Cepat</strong>
