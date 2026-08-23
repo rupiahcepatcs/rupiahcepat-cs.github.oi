@@ -141,6 +141,31 @@ footer strong{color:var(--forest-deep)}
 .wa-icon{font-size:20px}
 @media(max-width:500px){.whatsapp-float{right:16px;bottom:16px;padding:13px 16px}.wa-text{display:none}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+.ai-float{
+  position:fixed;
+  right:22px;
+  bottom:88px;
+  z-index:100;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:13px 18px;
+  border-radius:999px;
+  background:#111827;
+  color:#fff;
+  font-weight:700;
+  font-size:14px;
+  box-shadow:0 12px 35px rgba(0,0,0,.22);
+  transition:.2s;
+}
+.ai-float:hover{transform:translateY(-3px)}
+.ai-icon{font-size:18px}
+@media(max-width:500px){
+  .ai-float{right:16px;bottom:82px;padding:13px 15px}
+  .ai-text{display:none}
+}
+
 </style>
 <script type="application/ld+json">
 {
@@ -357,6 +382,16 @@ footer strong{color:var(--forest-deep)}
 <strong>Panduan Restrukturisasi Rupiah Cepat</strong>
 <div class="disclaimer">Halaman ini merupakan halaman informasi dan tidak menyatakan diri sebagai situs resmi Rupiah Cepat. Informasi mengenai persetujuan, keringanan, biaya, tenor, maupun perubahan kewajiban mengikuti ketentuan penyedia layanan dan hasil evaluasi masing-masing akun.</div>
 </footer>
+
+
+<a class="ai-float"
+   href="https://aplikasi-web-catatan-tugas.ai.studio"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Buka Asisten AI">
+  <span class="ai-icon" aria-hidden="true">✨</span>
+  <span class="ai-text">Asisten AI</span>
+</a>
 
 <a class="whatsapp-float" href="https://wa.me/628136167501?text=Halo%2C%20saya%20ingin%20mendapatkan%20informasi%20mengenai%20restrukturisasi%20tagihan." target="_blank" rel="noopener noreferrer" aria-label="Hubungi melalui WhatsApp">
 <span class="wa-icon">💬</span><span class="wa-text">WhatsApp</span>
